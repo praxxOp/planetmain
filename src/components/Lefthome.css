@@ -1,0 +1,108 @@
+.container{
+    width: 100%;
+    height: 70vh;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Michroma', sans-serif;
+    color: white;
+    cursor: pointer;
+}
+
+.leftbox{
+    height: 100%;
+    width: 28%;
+    border-radius: 10px;
+    background-image: url(./assets/earth2.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.midbox{
+    height: 100%;
+    width: 28%;
+    background-color: aqua;
+    border-radius: 10px;
+    background-image: url(./assets/sun2.jpg);
+    background-size: cover;
+    background-position: top;
+    overflow: hidden;
+}
+.lastbox{
+    height: 100%;
+    width:28%;
+    background-color: aqua;
+    border-radius: 10px;
+    background-image: url(./assets/saturn.jpg);
+    background-size: cover;
+   background-position: top;
+   overflow: hidden;
+  
+}
+
+.leftbox img{
+    width: 90%;
+   height: 75%;
+  position: relative;
+  left: 70%;
+  opacity: 0.5;
+  transition: all ease-out 0.7s;
+
+}
+.midbox img{
+   position: relative;
+   left: 45%;
+   opacity: 0.5;
+   transition: all ease-out 0.7s;
+
+}
+.lastbox img{
+    width: 90%;
+   height: 75%;
+   position: relative;
+   left: 70%;
+   opacity: 0.5;
+   transition: all ease-out 0.7s;
+
+}
+
+.leftbox h1{
+    z-index: 999;
+}
+.info{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: rgb(238, 232, 232);
+    
+}
+
+.info p{
+    width: 390px;
+    height: 79px;
+   font-size: 20px;
+   font-family: 'Michroma', sans-serif;
+}
+
+.container :hover img{
+    transform: translateX(-30%) rotate(360deg);
+    opacity: 1;
+      
+}
+.text-div{
+height: 50px;
+overflow: hidden;
+margin-left: 10px;
+}
+
+.container h1{
+    transition: all ease-out .5s;
+}
+
+.container :hover h1{
+    transform: translateY(-100%);
+}
+

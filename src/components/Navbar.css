@@ -1,0 +1,44 @@
+#navbar{
+    display: flex;
+    height: 60px;
+color: white;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+#navbar h1{
+    font-weight: 100;
+    font-size: 20px;
+    margin-left: 20px;
+    width: 130px;
+    height: 50px;
+    font-family: 'Michroma', sans-serif;
+    margin-top: 25px;
+    
+}
+
+.bar{
+display: flex;
+flex-direction: column;
+position: relative;
+align-items: end;
+height: 30px;
+width: 50px;
+  margin-right: 10px;
+  justify-content: space-evenly;
+  
+}
+
+.bar1{
+    border-radius: 5px;
+    height: 6px;
+    width: 30px;
+    background-color: white;
+}
+.bar2{
+    border-radius: 5px;
+    height: 6px;
+    width: 50px;
+    background-color: white;
+}
